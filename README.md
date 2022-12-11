@@ -1,6 +1,13 @@
-# AntiDDoSTePrototype
+# antiDoSte
 
-Here we explain how to install our solution
+Denial-of-Service (DoS) attacks have a long history and there are many of them, ranging from exploits that crash individual devices to attacks that overwhelm the capacity of servers by having many clients issue a barrage of requests.
+These attacks target availability and deny access of rightful users to the on-line services they need to work and play.
+
+In this work, ANTIDOSTE – antidote for DoS, we combine the efficiency of using custom rules to detect specific attacks with the effectiveness of using Machine Learning on traffic patterns to detect previously unknown attacks.
+
+ANTIDOSTE can detect DoS attacks, both known and unknown, and can mitigate them using virtual local area networks (VLAN), created dynamically using software-defined network (SDN) mechanisms.
+
+Next, we explain how to install our solution
 
 ## Requirements
 
@@ -79,9 +86,3 @@ To perform a TCP-SYN flood attack, aiming the server, you can do, inside mininet
 ```
 mininet> [Name_of_the_attacker] python3 DoS_sc.py 10.0.7.100 # Where the name of the attacker is the  malicious device name, for example Jero.
 ```
-
-
-
-
-
-
